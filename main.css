@@ -86,6 +86,9 @@ h1 {
 .btn a{
     color: black;
     border-radius: 10px;
-    padding: 10px;
-    /*background-color: lightgray;*/
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background-color: inherit;
 }
