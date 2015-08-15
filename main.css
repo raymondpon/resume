@@ -46,16 +46,21 @@ h1 {
     list-style-type: none;
     padding-left: 20px;
 }
+
 .header-image {
+    text-align: center;
+   /*margin-left: auto;*/
+    /*margin-right: auto; */
+}
+.header-image img{
     border-radius: 50%;
     height: 150px;
     width: 150px;
     border: solid 7px lightgray;
-    background-image: url(https://s.gravatar.com/avatar/99b2ac4667f94cb56b11257b2e4a6d11?s=160);
+    /*background-image: url(https://s.gravatar.com/avatar/99b2ac4667f94cb56b11257b2e4a6d11?s=160);*/
     background-position: center;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    margin: auto;
+
+
 }
 
 .hero {
