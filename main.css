@@ -23,6 +23,12 @@ p {
 body {
     background-color: lightgray;
 }
+.resume i {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
 h1 {
     font-weight: 300;
 }
@@ -32,12 +38,12 @@ h1 {
 }
 .resume p {
     padding-left: 40px;
-    line-height: 120%;
+    line-height: 125%;
     padding-right: 20px;
 }
 .resume h1 {
     line-height: 120%;
-    padding-top: 20px;
+    padding-top: 15 px;
 }
 .resume h3 {
     padding-left: 30px;
