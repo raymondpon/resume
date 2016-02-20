@@ -128,12 +128,15 @@ h1 {
 }
 
 .creative-commons {
-     text-align: center;
+    text-align: center;
+    text-decoration:none;
 }
 .creative-commons a {
     color: lightgray;
+    text-decoration:none;
 }
 .creative-commons a:hover {
     color: darkgrey;
+    text-decoration:none;
 
 }
