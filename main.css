@@ -7,9 +7,7 @@
     border-radius: 25px;
     font-family: 'Open Sans', sans-serif;
     background-color: white;
-    /*position: absolute;*/
     top: 20px;
-    margin-bottom: auto;
     padding-bottom: 20px;
     right: 20px;
     left: 20px;
@@ -130,12 +128,15 @@ h1 {
 }
 
 .creative-commons {
-     text-align: center;
+    text-align: center;
+    text-decoration:none;
 }
 .creative-commons a {
     color: lightgray;
+    text-decoration:none;
 }
 .creative-commons a:hover {
     color: darkgrey;
+    text-decoration:none;
 
 }
