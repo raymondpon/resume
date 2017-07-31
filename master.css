@@ -1,10 +1,17 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+h3 {
+    font-weight: 300;
+}
 
 .header {
   text-align: center;
 }
+.thin {
+    font-weight: 300;
+}
+
 #gravatar {
   width: 125px;
   margin-top: 15px;
