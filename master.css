@@ -5,6 +5,11 @@ h3 {
     font-weight: 300;
 }
 
+.resume-body{
+  margin: auto;
+  max-width: 900px;
+}
+
 .header {
   text-align: center;
 }
