@@ -67,12 +67,13 @@
     <div class="header">
       <img id="gravatar" src="99b2ac4667f94cb56b11257b2e4a6d11.jpg" alt="Image" class="img-responsive center-block img-circle">
       <h2 class="thin" id="name">Matt Troutman</h2>
-      <h4 class="thin" id="tagline">Quality Assurance Engineer</h4>
-      <a href="../"><button class="btn  btn-default" id="contact-info">Contact Me</button></a>
+      <h4 class="thin dontshow dontprint" id="tagline">Quality Assurance Engineer</h4>
+      <a class="dontprint" id="contactmebutton" href="../"><button class="btn  btn-default" id="contact-info">Contact Me</button></a>
+      <span class="thin dontshow" id="phone_number">913•735•3474</span>
     </div>
     <!-- End Header Block -->
 
-    <div class="resume-body">
+    <div class="resume-body printit">
       <div class="nest">
         <h3>Objective</h3>
         <div class="nest">
@@ -82,9 +83,9 @@
       </div>
       <div class="nest">
         <h3>Experience</h3>
-        <div class="nest block-margin">
-          <h4>Quality Assurance Engineer • SurveyMonkey</h4>
-          <h4>Oct 2014 - Present</h4>
+        <div id="SMQA" class="nest block-margin">
+          <h4 class="thin">Quality Assurance Engineer • SurveyMonkey</h4>
+            <h4 class="nest thin">Oct 2014 - Present</h4>
           <div class="nest">
             • Maintain current project test case management database <br>
             • Provide guidance during feature planning regarding potential quality impact <br>
@@ -94,9 +95,9 @@
           </div>
 
         </div>
-        <div class="nest block-margin">
-          <h4>Quality Assurance Engineer • Apple, Inc.</h4>
-          <h4 class="nest">May 2012 - Oct 2014</h4>
+        <div id="AppleQA" class="nest block-margin">
+          <h4 class="thin">Quality Assurance Engineer • Apple, Inc.</h4>
+            <h4 class="thin nest">May 2012 - Oct 2014</h4>
           <div class="nest">
             • Oversaw testing of Contacts application (OS X) for bugs before releasing to the public <br>
             • Confirmed feature pairity between development iOS and OS X Contacts apps <br>
@@ -105,24 +106,23 @@
           </div>
 
         </div>
-        <div class="nest block-margin">
-          <h4>Adjunct Professor • MidAmerica Nazarene University</h4>
-          <h4 class="nest">Spring Semester 2008</h4>
+        <div id="MNUprof" class="nest block-margin dontprint">
+          <h4 class="thin">Adjunct Professor • MidAmerica Nazarene University</h4>
+          <h4 class="thin nest">Spring Semester 2008</h4>
           <div class="nest">
             • Lead students in learning music composition & editing applications<br>
             • Taught basic video editing skills<br>
             • Oversaw music video final project - encompassing all skills learned in the course <br>
           </div>
-
         </div>
         <div class="nest block-margin">
-          <h4>Mac Genius • Apple, Inc.</h4>
-          <h4 class="nest">2005 - 2012</h4>
+          <h4 class="thin">Mac Genius • Apple, Inc.</h4>
+          <h4 class="thin nest">2005 - 2012</h4>
           <div class="nest">
             • Worked with customers to troubleshoot issues with both Mac & iOS hardware & software <br>
             • Provided training sessions to customers of all skill levels with a variety of software and hardware <br>
             • Diagnosed problems at a rapid and accurate pace to help customers resolve their issues <br>
-            • Performed repairs in a timely & accurate manner <br>
+            <span class="dontprint">• Performed repairs in a timely & accurate manner </span><br>
             • Created imaging system to help customers recover after a hard drive failure <br>
           </div>
 
@@ -130,26 +130,25 @@
 
       </div>
       <div class="nest block-margin">
-        <h3>Education & Certifications</h3>
+        <h3>Education <span class="dontprint">& Certifications</span></h3>
         <div class="nest">
           • Bachelor of Arts in Music  MidAmerica Nazarene University, 2012 <br>
-          • Apple Certified Macintosh Technician  2007-Current <br>
+          <span class="dontprint">• Apple Certified Macintosh Technician  2007-Current </span><br>
         </div>
 
       </div>
       <div class="nest block-margin">
         <h3>Skills</h3>
         <div class="nest">
-          • Mastery of these Operating Systems: Windows, Mac OS X, iOS, Mac OS X Server, Linux <br>
           • Fluent in: Office 365, WordPress, Adobe Photoshop, Google Apps, Amazon Web Services, Final Cut Pro X, ProTools, GitHub <br>
-          • I'm currently learning Python, and applying those skills by creating websites with Django web framework on nginx <br>
+          • I'm currently learning Python, and applying those skills by creating websites with Django and Nginx <br>
         </div>
 
       </div>
 
     </div>
 
-<div class="footer">
+<div class="footer dontprint">
 
 </div>
 
